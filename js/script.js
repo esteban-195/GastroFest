@@ -303,4 +303,4 @@ $('#slider-parallax').stellar();
   });
  
 });
-	
+

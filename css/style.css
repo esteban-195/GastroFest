@@ -235,7 +235,6 @@ a.btn-send:hover {
 }
 a.navbar-brand img {
 	position:relative;
-	top:9px;
 }
 #menu {
 	position:absolute;
@@ -455,11 +454,11 @@ ul.nav li.active a:before {
 	margin-right: 20px;
 }
 .media.service-box .pull-left > i {
-	font-size: 24px;
-	height: 64px;
-	line-height: 64px;
+	font-size: 45px;
+	height: 95px;
+	line-height: 95px;
 	text-align: center;
-	width: 64px;
+	width: 75px;
 	border-radius: 100%;
 	color: #e73131;
 	border:1px solid #d7d7d7;
@@ -850,7 +849,7 @@ ul.nav li.active a:before {
 }
 /*Testimonials-stylesheets-include-here*/
 #testimonials {
-	background-image:url(../images/Testimonials/01.jpg);
+	background-image:url(../images/Testimonials/P01.jpg);
 	height:450px;
 	text-align:center;
 }
@@ -1427,7 +1426,9 @@ table th, td{
 }
 #reservas{
 	background-color: antiquewhite;
-	margin-bottom: %;
-	
+	margin-bottom: 10%;
 }
 
+a.navbar-brand img {
+	width: 60px;
+}

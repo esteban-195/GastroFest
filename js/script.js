@@ -195,6 +195,7 @@ $(document).ready(function() {
 		var $portfolio = $('.portfolio-items');
 		$portfolio.isotope({
 			itemSelector : '.portfolio-item',
+      filter: '.aperitivos',
 			layoutMode : 'fitRows'
 		});
 		

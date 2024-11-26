@@ -455,7 +455,7 @@ ul.nav li.active a:before {
 	margin-right: 20px;
 }
 .media.service-box .pull-left > i {
-	font-size: 24px;
+	font-size: 24px; 
 	height: 64px;
 	line-height: 64px;
 	text-align: center;
@@ -902,7 +902,7 @@ background:#e73131;
 	font-weight:bolder;
 }
 /*Blog-stylesheets-include-here*/
-#blog {
+#detalles {
 	text-align:center;
 	padding:3% 0% 15% 2%;
 }
@@ -1352,11 +1352,6 @@ color:#fff;
 
 /* las modificaciones comienzan aqui */
 
-#cuenta {
-	display: flex;
-	justify-content: center;
-	margin-bottom: 100px;
-}
 
 .simply-section {
 	background: #fff;
@@ -1367,7 +1362,11 @@ color:#fff;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	box-shadow: 3px 3px 10px #fff;
 }
+/* .simply-section:hover {
+} */
+
 
 .simply-amount {
 	display: block;
@@ -1407,7 +1406,7 @@ table{
 	margin-left: 60PX;
 	margin-right: 60PX;
 	text-align: left;
-
+	
 }
 table th{
 	background-color: rgba(49, 49, 49, 0.274);
@@ -1427,7 +1426,87 @@ table th, td{
 }
 #reservas{
 	background-color: antiquewhite;
-	margin-bottom: %;
+	margin-bottom: 80px;
+	margin-top: -100px;
+	padding: 40px;
+	/* margin-bottom: %; */
 	
 }
 
+.form-reservas{
+	/* display: flex;
+	justify-content: center; */
+	text-align: center;
+}
+.form-reservas input{
+	margin: 10px;
+	width: 250px;
+	height: 50px;
+	font-size: 17px;
+	
+}
+.form-reservas input:hover{
+	/* border-width: 2px; */
+	border: 2px solid black;	
+}
+.form-reservas button{
+	cursor: pointer;
+	transition: 0.1s ease-in-out ; 
+	margin: 20px;
+	width: 525px;
+	height: 60px;
+	font-size: 20px;
+	/* border-radius: 3px; */
+	background-color: rgb(255, 208, 128);
+}
+
+.form-reservas button:hover{
+	margin: 21px;
+	width: 530px;
+	background-color: rgb(243, 218, 174);
+	box-shadow: 1px -1px -1px;
+	
+}
+#cuenta {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+#boton-flotante{
+	position: fixed; /* Para que sea flotante */
+	bottom: 20px; /* Distancia desde la parte inferior */
+	right: 20px; /* Distancia desde la parte derecha */
+	color: rgb(0, 0, 0); /* Color del texto */
+	
+	border: none;
+	padding: 15px 20px;
+	border-radius: 10px; /* Botón circular */
+	font-size: 18px;
+	cursor: pointer;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+	animation: titilar 2s infinite; /* Aplicar animación */
+	text-decoration: none; /* Quitar subrayado si es un enlace */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(236, 195, 73);
+}
+#boton-flotante:hover{
+	background-color: #d12323; /* Color de fondo */
+	height: 70px;
+	width: 230px;
+	font-size: 20px;
+}
+@keyframes titilar {
+	0%, 100% {
+	  opacity: 1;
+	}
+	50% {
+	  opacity: 0.5;
+	}
+  }
+
+/* html{
+	scroll-behavior: smooth;
+} */

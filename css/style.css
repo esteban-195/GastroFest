@@ -1506,6 +1506,11 @@ table th, td{
 	}
   }
 
+#testimonials2 {
+	background-image:url(../images/Slider/04.jpg);
+	height:450px;
+	text-align:center;
+}
 /* html{
 	scroll-behavior: smooth;
 } */

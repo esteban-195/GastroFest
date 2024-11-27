@@ -235,7 +235,6 @@ a.btn-send:hover {
 }
 a.navbar-brand img {
 	position:relative;
-	top:9px;
 }
 #menu {
 	position:absolute;
@@ -459,7 +458,7 @@ ul.nav li.active a:before {
 	height: 64px;
 	line-height: 64px;
 	text-align: center;
-	width: 64px;
+	width: 75px;
 	border-radius: 100%;
 	color: #e73131;
 	border:1px solid #d7d7d7;
@@ -850,7 +849,7 @@ ul.nav li.active a:before {
 }
 /*Testimonials-stylesheets-include-here*/
 #testimonials {
-	background-image:url(../images/Testimonials/01.jpg);
+	background-image:url(../images/Testimonials/P01.jpg);
 	height:450px;
 	text-align:center;
 }

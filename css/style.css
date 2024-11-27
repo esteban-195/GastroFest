@@ -240,7 +240,7 @@ a.navbar-brand img {
 	position:absolute;
 }
 #menu .nav {
-	left: 25%;
+	left: 10%;
 	position: relative;
 }
 #menu ul.nav li a {
@@ -451,14 +451,14 @@ ul.nav li.active a:before {
 	margin: 25px 0;
 }
 .media.service-box .pull-left {
-	margin-right: 20px;
+	margin-right: 0px;
 }
 .media.service-box .pull-left > i {
 	font-size: 24px; 
-	height: 64px;
+	height: 90px;
 	line-height: 64px;
 	text-align: center;
-	width: 75px;
+	width: 90px;
 	border-radius: 100%;
 	color: #e73131;
 	border:1px solid #d7d7d7;
@@ -1514,3 +1514,7 @@ table th, td{
 /* html{
 	scroll-behavior: smooth;
 } */
+
+a.navbar-brand img {
+    width: 60px;
+}
